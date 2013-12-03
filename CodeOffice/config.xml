@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<data>
+    <package-path>D:\test\com\ypyq</package-path>
+    <tables>
+        <table>
+            <name>TOU_Constrain</name>
+            <objectName>TouConstrain</objectName>
+            <schema>dbo</schema>
+            <columns>
+                <column type="double">pMaCost</column>
+                <column type="double">pGeCost</column>
+            </columns>
+        </table>
+        <table>
+            <name>TOU_HisDRPara</name>
+            <objectName>TouHisDRPara</objectName>
+            <schema>dbo</schema>
+            <columns>
+                <column type="Date">PublishDate</column>
+                <column type="int">UserType</column>
+                <column type="int">SubUserType</column>
+                <column type="double">K_F_P</column>
+                <column type="double">A_F_P</column>
+                <column type="double">B_F_P</column>
+                <column type="double">K_F_G</column>
+                <column type="double">A_F_G</column>
+                <column type="double">B_F_G</column>
+                <column type="double">K_P_G</column>
+                <column type="double">A_P_G</column>
+                <column type="double">B_P_G</column>
+            </columns>
+        </table>
+        <table>
+            <name>TOU_NowTimeInterval</name>
+            <objectName>TouNowTimeInterval</objectName>
+            <schema>dbo</schema>
+            <columns>
+                <column type="int">userType</column>
+                <column type="int">timeType</column>
+                <column type="int">startTime</column>
+                <column type="int">endTime</column>
+            </columns>
+        </table>
+    </tables>
+</data>
